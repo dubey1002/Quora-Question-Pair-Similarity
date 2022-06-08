@@ -77,36 +77,22 @@ Features: <br>
 <b>cwc_min__</b>
  :  Ratio of common_word_count to min lenghth of word count of Q1 and Q2 <br>cwc_min = common_word_count / (min(len(q1_words), len(q2_words))
 <br>
-
 <b>cwc_max__</b> :  Ratio of common_word_count to max lenghth of word count of Q1 and Q2 <br>cwc_max = common_word_count / (max(len(q1_words), len(q2_words))
 <br>
-
 <b>csc_min__</b> :  Ratio of common_stop_count to min lenghth of stop count of Q1 and Q2 <br> csc_min = common_stop_count / (min(len(q1_stops), len(q2_stops))
 <br>
-
 <b>csc_max__</b> :  Ratio of common_stop_count to max lenghth of stop count of Q1 and Q2<br>csc_max = common_stop_count / (max(len(q1_stops), len(q2_stops))
 <br>
-
 <b>ctc_min__</b> :  Ratio of common_token_count to min lenghth of token count of Q1 and Q2<br>ctc_min = common_token_count / (min(len(q1_tokens), len(q2_tokens))
 <br>
-
-
 <b>ctc_max__</b> :  Ratio of common_token_count to max lenghth of token count of Q1 and Q2<br>ctc_max = common_token_count / (max(len(q1_tokens), len(q2_tokens))
-<br>
-<br>
-        
+<br>   
 <b>last_word_eq</b> :  Check if First word of both questions is equal or not<br>last_word_eq = int(q1_tokens[-1] == q2_tokens[-1])
 <br>
-
-
 <b>first_word_eq</b> :  Check if First word of both questions is equal or not<br>first_word_eq = int(q1_tokens[0] == q2_tokens[0])
-<br>
-
-        
+<br>    
 <b>abs_len_diff</b> :  Abs. length difference<br>abs_len_diff = abs(len(q1_tokens) - len(q2_tokens))
 <br>
-
-
 <b>mean_len</b> :  Average Token Length of both Questions<br>mean_len = (len(q1_tokens) + len(q2_tokens))/2
 <br>
 
