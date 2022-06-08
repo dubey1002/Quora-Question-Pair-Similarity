@@ -58,18 +58,18 @@ Metric(s):
 * Binary Confusion Matrix
 
 <h2>3.3 Basic Feature Extraction (before cleaning) </h2>
-Let us now construct a few features like:
- - ____freq_qid1____ = Frequency of qid1's
- - ____freq_qid2____ = Frequency of qid2's 
- - ____q1len____ = Length of q1
- - ____q2len____ = Length of q2
- - ____q1_n_words____ = Number of words in Question 1
- - ____q2_n_words____ = Number of words in Question 2
- - ____word_Common____ = (Number of common unique words in Question 1 and Question 2)
- - ____word_Total____ =(Total num of words in Question 1 + Total num of words in Question 2)
- - ____word_share____ = (word_common)/(word_Total)
- - ____freq_q1+freq_q2____ = sum total of frequency of qid1 and qid2 
- - ____freq_q1-freq_q2____ = absolute difference of frequency of qid1 and qid2 
+Let us now construct a few features like:<br>
+<b>freq_qid1<b> = Frequency of qid1's<br>
+<b>freq_qid2<b> = Frequency of qid2's <br>
+<b>q1len<b> = Length of q1<br>
+<b>q2len<b> = Length of q2<br>
+<b>q1_n_words<b> = Number of words in Question 1<br>
+<b>q2_n_words<b> = Number of words in Question 2<br>
+<b>word_Common<b> = (Number of common unique words in Question 1 and Question 2)<br>
+<b>word_Total<b> = (Total num of words in Question 1 + Total num of words in Question 2)<br>
+<b>word_share<b> = (word_common)/(word_Total)<br>
+<b>freq_q1+freq_q2<b> = sum total of frequency of qid1 and qid2 <br>
+<b>freq_q1-freq_q2<b> = absolute difference of frequency of qid1 and qid2 <br>
  
 
 
