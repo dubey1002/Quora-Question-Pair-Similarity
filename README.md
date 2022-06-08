@@ -72,7 +72,7 @@ Let us now construct a few features like:<br>
 <b>freq_q1-freq_q2</b> = absolute difference of frequency of qid1 and qid2 <br>
  
 
-<h2> 3.5 Advanced Feature Extraction (NLP and Fuzzy Features) </h2>
+<h2> 3 Advanced Feature Extraction (NLP and Fuzzy Features) </h2>
 Features: <br>
 <b>cwc_min__</b>
  :  Ratio of common_word_count to min lenghth of word count of Q1 and Q2 <br>cwc_min = common_word_count / (min(len(q1_words), len(q2_words))
