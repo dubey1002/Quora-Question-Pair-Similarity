@@ -95,17 +95,13 @@ Features: <br>
 <br>
 <b>10.mean_len</b> :  Average Token Length of both Questions<br>mean_len = (len(q1_tokens) + len(q2_tokens))/2
 <br>
-<b>11.fuzz_ratio</b> :  https://github.com/seatgeek/fuzzywuzzy#usage
-http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
+<b>11.fuzz_ratio</b> :  http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
-<b>12.fuzz_partial_ratio</b> :  https://github.com/seatgeek/fuzzywuzzy#usage
-http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
+<b>12.fuzz_partial_ratio</b> : http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
-<b>13.token_sort_ratio</b> : https://github.com/seatgeek/fuzzywuzzy#usage
-http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
+<b>13.token_sort_ratio</b> : http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
-<b>14.token_set_ratio</b> : https://github.com/seatgeek/fuzzywuzzy#usage
-http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
+<b>14.token_set_ratio</b> : http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
 <b>15.longest_substr_ratio</b> :  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2<br>longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
 
