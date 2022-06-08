@@ -59,17 +59,17 @@ Metric(s):
 
 <h2>3.3 Basic Feature Extraction (before cleaning) </h2>
 Let us now construct a few features like:<br>
-<b>freq_qid1<b> = Frequency of qid1's<br>
-<b>freq_qid2<b> = Frequency of qid2's <br>
-<b>q1len<b> = Length of q1<br>
-<b>q2len<b> = Length of q2<br>
-<b>q1_n_words<b> = Number of words in Question 1<br>
-<b>q2_n_words<b> = Number of words in Question 2<br>
-<b>word_Common<b> = (Number of common unique words in Question 1 and Question 2)<br>
-<b>word_Total<b> = (Total num of words in Question 1 + Total num of words in Question 2)<br>
-<b>word_share<b> = (word_common)/(word_Total)<br>
-<b>freq_q1+freq_q2<b> = sum total of frequency of qid1 and qid2 <br>
-<b>freq_q1-freq_q2<b> = absolute difference of frequency of qid1 and qid2 <br>
+<b>freq_qid1</b> = Frequency of qid1's<br>
+<b>freq_qid2</b> = Frequency of qid2's <br>
+<b>q1len</b> = Length of q1<br>
+<b>q2len</b> = Length of q2<br>
+<b>q1_n_words</b> = Number of words in Question 1<br>
+<b>q2_n_words</b> = Number of words in Question 2<br>
+<b>word_Common</b> = (Number of common unique words in Question 1 and Question 2)<br>
+<b>word_Total</b> = (Total num of words in Question 1 + Total num of words in Question 2)<br>
+<b>word_share</b> = (word_common)/(word_Total)<br>
+<b>freq_q1+freq_q2</b> = sum total of frequency of qid1 and qid2 <br>
+<b>freq_q1-freq_q2</b> = absolute difference of frequency of qid1 and qid2 <br>
  
 
 
